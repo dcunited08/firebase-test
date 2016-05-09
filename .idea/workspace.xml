@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="defd55c6-ac9d-4675-b4f4-052efdfedc09" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="firebase-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,15 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="732">
-              <caret line="185" column="4" selection-start-line="185" selection-start-column="4" selection-end-line="185" selection-end-column="4" />
-              <folding>
-                <marker date="1462804892000" expanded="true" signature="669:820" placeholder="..." />
-                <marker date="1462804892000" expanded="true" signature="762:788" placeholder="..." />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,8 +56,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -787,12 +784,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1462796659591</updated>
-      <workItem from="1462796660890" duration="5344000" />
+      <workItem from="1462796660890" duration="5774000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5344000" />
+    <option name="totallyTimeSpent" value="5774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -806,7 +803,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -837,14 +834,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -871,12 +860,93 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="732">
-          <caret line="185" column="4" selection-start-line="185" selection-start-column="4" selection-end-line="185" selection-end-column="4" />
+        <state relative-caret-position="522">
+          <caret line="171" column="7" selection-start-line="171" selection-start-column="7" selection-end-line="171" selection-end-column="7" />
           <folding>
-            <marker date="1462804892000" expanded="true" signature="669:820" placeholder="..." />
-            <marker date="1462804892000" expanded="true" signature="762:788" placeholder="..." />
+            <marker date="1462805414000" expanded="true" signature="29:5651" placeholder="..." />
+            <marker date="1462805414000" expanded="true" signature="36:616" placeholder="..." />
+            <marker date="1462805414000" expanded="true" signature="623:5643" placeholder="..." />
+            <marker date="1462805414000" expanded="true" signature="629:831" placeholder="..." />
+            <marker date="1462805414000" expanded="true" signature="669:820" placeholder="..." />
+            <marker date="1462805414000" expanded="true" signature="762:788" placeholder="..." />
+            <marker date="1462805414000" expanded="true" signature="858:2097" placeholder="..." />
+            <marker date="1462805414000" expanded="true" signature="881:1115" placeholder="..." />
+            <marker date="1462805414000" expanded="true" signature="923:1060" placeholder="..." />
+            <marker date="1462805414000" expanded="true" signature="1147:1247" placeholder="..." />
+            <marker date="1462805414000" expanded="true" signature="1174:1238" placeholder="..." />
+            <marker date="1462805414000" expanded="true" signature="1256:2023" placeholder="..." />
+            <marker date="1462805414000" expanded="true" signature="1267:2014" placeholder="..." />
+            <marker date="1462805414000" expanded="true" signature="2047:2090" placeholder="..." />
+            <marker date="1462805414000" expanded="true" signature="3294:5635" placeholder="..." />
+            <marker date="1462805414000" expanded="true" signature="3312:5624" placeholder="{...}" />
+            <marker date="1462805414000" expanded="true" signature="3429:3644" placeholder="{...}" />
+            <marker date="1462805414000" expanded="true" signature="3452:3534" placeholder="{&quot;date_of_birth&quot;: &quot;June 23, 1912&quot;...}" />
+            <marker date="1462805414000" expanded="true" signature="3552:3638" placeholder="{&quot;date_of_birth&quot;: &quot;December 9, 1906&quot;...}" />
+            <marker date="1462805414000" expanded="true" signature="3684:3807" placeholder="{...}" />
+            <marker date="1462805414000" expanded="true" signature="3850:3992" placeholder="{...}" />
+            <marker date="1462805414000" expanded="true" signature="4033:4194" placeholder="{...}" />
+            <marker date="1462805414000" expanded="true" signature="4109:4185" placeholder="{...}" />
+            <marker date="1462805414000" expanded="true" signature="4270:4340" placeholder="{...}" />
+            <marker date="1462805414000" expanded="true" signature="4365:4431" placeholder="{...}" />
+            <marker date="1462805414000" expanded="true" signature="4509:4598" placeholder="{...}" />
+            <marker date="1462805414000" expanded="true" signature="4623:4689" placeholder="{...}" />
+            <marker date="1462805414000" expanded="true" signature="4765:4854" placeholder="{...}" />
+            <marker date="1462805414000" expanded="true" signature="4879:4945" placeholder="{...}" />
+            <marker date="1462805414000" expanded="true" signature="5040:5149" placeholder="{...}" />
+            <marker date="1462805414000" expanded="true" signature="5274:5403" placeholder="{...}" />
+            <marker date="1462805414000" expanded="true" signature="5516:5613" placeholder="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/firebase.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1462805527000" expanded="true" signature="0:128" placeholder="{&quot;firebase&quot;: &quot;dcook-test1&quot;...}" />
+            <marker date="1462805527000" expanded="true" signature="62:126" placeholder="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1462805623000" expanded="true" signature="28:4108" placeholder="..." />
+            <marker date="1462805623000" expanded="true" signature="399:4101" placeholder="..." />
+            <marker date="1462805623000" expanded="true" signature="404:606" placeholder="..." />
+            <marker date="1462805623000" expanded="true" signature="444:595" placeholder="..." />
+            <marker date="1462805623000" expanded="true" signature="537:563" placeholder="..." />
+            <marker date="1462805623000" expanded="true" signature="1757:4094" placeholder="..." />
+            <marker date="1462805623000" expanded="true" signature="1772:4084" placeholder="{...}" />
+            <marker date="1462805623000" expanded="true" signature="1889:2104" placeholder="{...}" />
+            <marker date="1462805623000" expanded="true" signature="1912:1994" placeholder="{&quot;date_of_birth&quot;: &quot;June 23, 1912&quot;...}" />
+            <marker date="1462805623000" expanded="true" signature="2012:2098" placeholder="{&quot;date_of_birth&quot;: &quot;December 9, 1906&quot;...}" />
+            <marker date="1462805623000" expanded="true" signature="2144:2267" placeholder="{...}" />
+            <marker date="1462805623000" expanded="true" signature="2310:2452" placeholder="{...}" />
+            <marker date="1462805623000" expanded="true" signature="2493:2654" placeholder="{...}" />
+            <marker date="1462805623000" expanded="true" signature="2569:2645" placeholder="{...}" />
+            <marker date="1462805623000" expanded="true" signature="2730:2800" placeholder="{...}" />
+            <marker date="1462805623000" expanded="true" signature="2825:2891" placeholder="{...}" />
+            <marker date="1462805623000" expanded="true" signature="2969:3058" placeholder="{...}" />
+            <marker date="1462805623000" expanded="true" signature="3083:3149" placeholder="{...}" />
+            <marker date="1462805623000" expanded="true" signature="3225:3314" placeholder="{...}" />
+            <marker date="1462805623000" expanded="true" signature="3339:3405" placeholder="{...}" />
+            <marker date="1462805623000" expanded="true" signature="3500:3609" placeholder="{...}" />
+            <marker date="1462805623000" expanded="true" signature="3734:3863" placeholder="{...}" />
+            <marker date="1462805623000" expanded="true" signature="3976:4073" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
