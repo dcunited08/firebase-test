@@ -1,6 +1,6 @@
 {
   "firebase": "dcook-test1",
-  "public": "app",
+  "public": "dist",
   "ignore": [
     "firebase.json",
     "**/.*",
