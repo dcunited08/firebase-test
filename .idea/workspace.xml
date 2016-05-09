@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="defd55c6-ac9d-4675-b4f4-052efdfedc09" name="Default" comment="" />
+    <list default="true" id="defd55c6-ac9d-4675-b4f4-052efdfedc09" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.babelrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.yo-rc.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/apple-touch-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scripts/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/main.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test/spec/test.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="firebase-test.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,12 +41,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="151" column="7" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -63,80 +85,6 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-    <gulpfiles>
-      <GulpfileState>
-        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
-        <tasks>
-          <GulpTaskState>
-            <dependencies>
-              <dependency value="lint" />
-              <dependency value="html" />
-              <dependency value="images" />
-              <dependency value="fonts" />
-              <dependency value="extras" />
-            </dependencies>
-            <task-name>build</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>clean</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <dependencies>
-              <dependency value="clean" />
-            </dependencies>
-            <task-name>default</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>extras</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>fonts</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <dependencies>
-              <dependency value="styles" />
-              <dependency value="scripts" />
-            </dependencies>
-            <task-name>html</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>images</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>lint</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>lint:test</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>scripts</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <dependencies>
-              <dependency value="styles" />
-              <dependency value="scripts" />
-              <dependency value="fonts" />
-            </dependencies>
-            <task-name>serve</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>serve:dist</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <dependencies>
-              <dependency value="scripts" />
-            </dependencies>
-            <task-name>serve:test</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>styles</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>wiredep</task-name>
-          </GulpTaskState>
-        </tasks>
-      </GulpfileState>
-    </gulpfiles>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -782,12 +730,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1462796659591</updated>
-      <workItem from="1462796660890" duration="6141000" />
+      <workItem from="1462796660890" duration="6555000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6141000" />
+    <option name="totallyTimeSpent" value="6555000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -801,7 +749,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -844,15 +792,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1462797383000" expanded="true" signature="0:917" placeholder="{&quot;private&quot;: true...}" />
-            <marker date="1462797383000" expanded="true" signature="34:57" placeholder="{&quot;node&quot;: &quot;&gt;=4&quot;...}" />
-            <marker date="1462797383000" expanded="true" signature="80:734" placeholder="{&quot;babel-core&quot;: &quot;^6.4.0&quot;...}" />
-            <marker date="1462797383000" expanded="true" signature="754:915" placeholder="{...}" />
-            <marker date="1462797383000" expanded="true" signature="767:835" placeholder="{&quot;es6&quot;: true...}" />
-            <marker date="1462797383000" expanded="true" signature="850:911" placeholder="{...}" />
-            <marker date="1462797383000" expanded="true" signature="868:905" placeholder="[...]" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -860,44 +800,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="522">
           <caret line="171" column="7" selection-start-line="171" selection-start-column="7" selection-end-line="171" selection-end-column="7" />
-          <folding>
-            <marker date="1462805414000" expanded="true" signature="29:5651" placeholder="..." />
-            <marker date="1462805414000" expanded="true" signature="36:616" placeholder="..." />
-            <marker date="1462805414000" expanded="true" signature="623:5643" placeholder="..." />
-            <marker date="1462805414000" expanded="true" signature="629:831" placeholder="..." />
-            <marker date="1462805414000" expanded="true" signature="669:820" placeholder="..." />
-            <marker date="1462805414000" expanded="true" signature="762:788" placeholder="..." />
-            <marker date="1462805414000" expanded="true" signature="858:2097" placeholder="..." />
-            <marker date="1462805414000" expanded="true" signature="881:1115" placeholder="..." />
-            <marker date="1462805414000" expanded="true" signature="923:1060" placeholder="..." />
-            <marker date="1462805414000" expanded="true" signature="1147:1247" placeholder="..." />
-            <marker date="1462805414000" expanded="true" signature="1174:1238" placeholder="..." />
-            <marker date="1462805414000" expanded="true" signature="1256:2023" placeholder="..." />
-            <marker date="1462805414000" expanded="true" signature="1267:2014" placeholder="..." />
-            <marker date="1462805414000" expanded="true" signature="2047:2090" placeholder="..." />
-            <marker date="1462805414000" expanded="true" signature="3294:5635" placeholder="..." />
-            <marker date="1462805414000" expanded="true" signature="3312:5624" placeholder="{...}" />
-            <marker date="1462805414000" expanded="true" signature="3429:3644" placeholder="{...}" />
-            <marker date="1462805414000" expanded="true" signature="3452:3534" placeholder="{&quot;date_of_birth&quot;: &quot;June 23, 1912&quot;...}" />
-            <marker date="1462805414000" expanded="true" signature="3552:3638" placeholder="{&quot;date_of_birth&quot;: &quot;December 9, 1906&quot;...}" />
-            <marker date="1462805414000" expanded="true" signature="3684:3807" placeholder="{...}" />
-            <marker date="1462805414000" expanded="true" signature="3850:3992" placeholder="{...}" />
-            <marker date="1462805414000" expanded="true" signature="4033:4194" placeholder="{...}" />
-            <marker date="1462805414000" expanded="true" signature="4109:4185" placeholder="{...}" />
-            <marker date="1462805414000" expanded="true" signature="4270:4340" placeholder="{...}" />
-            <marker date="1462805414000" expanded="true" signature="4365:4431" placeholder="{...}" />
-            <marker date="1462805414000" expanded="true" signature="4509:4598" placeholder="{...}" />
-            <marker date="1462805414000" expanded="true" signature="4623:4689" placeholder="{...}" />
-            <marker date="1462805414000" expanded="true" signature="4765:4854" placeholder="{...}" />
-            <marker date="1462805414000" expanded="true" signature="4879:4945" placeholder="{...}" />
-            <marker date="1462805414000" expanded="true" signature="5040:5149" placeholder="{...}" />
-            <marker date="1462805414000" expanded="true" signature="5274:5403" placeholder="{...}" />
-            <marker date="1462805414000" expanded="true" signature="5516:5613" placeholder="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="151" column="7" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -916,19 +847,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="151" column="7" selection-start-line="151" selection-start-column="7" selection-end-line="151" selection-end-column="7" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
