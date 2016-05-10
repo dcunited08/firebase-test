@@ -25,7 +25,7 @@ export class FirebaseTestAppComponent {
   }
 
   updateUpdate(pemdos: string) {
-
+    this.update.update({pemdos: pemdos});
   }
 
   pushPush(test1: string, test2: string) {
