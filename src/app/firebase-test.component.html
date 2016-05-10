@@ -1,3 +1,34 @@
 <h1>
   {{title}}
 </h1>
+
+<h3>Change Set</h3>
+<label for="inputSet">Press enter to commit</label><br />
+<input type="text" #inputSet (keyup.enter)="setSet(inputSet.value)" placeholder="Set" value="{{set | async}}" />
+
+<h3>Change Update</h3>
+<p>
+  {{ update | async | json}}
+  {{ update.pemdos | async }}
+</p>
+<label for="inputUpdate">Press enter to update 'pemdos'</label><br />
+<input type="text" #inputUpdate (keyup.enter)="updateUpdate(inputUpdate.value)" placeholder="Update" value="{{update.pemdos | async | json}}" />
+
+
+<br />
+<br />
+<label for="test1">Test1</label>
+<input type="text" #test1 placeholder="test1" />
+<br />
+<label>Test2</label>
+<input type="text" #test2 placeholder="test2" />
+<br />
+<button (click)="pushPush(test1.value, test2.value)">Push Value</button>
+
+
+<ul *ngFor="let item of push | async">
+  <li class="text">
+    {{item | json}}
+  </li>
+</ul>
+

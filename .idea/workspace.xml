@@ -2,33 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="defd55c6-ac9d-4675-b4f4-052efdfedc09" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitattributes" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.jscsrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.yo-rc.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/404.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/yeoman.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/robots.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scripts/controllers/about.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/about.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/karma.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/spec/controllers/about.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/spec/controllers/main.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.editorconfig" afterPath="$PROJECT_DIR$/.editorconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/serve.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/angular-cli-build.js" afterPath="$PROJECT_DIR$/angular-cli-build.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/firebase-test.component.html" afterPath="$PROJECT_DIR$/src/app/firebase-test.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/firebase-test.component.ts" afterPath="$PROJECT_DIR$/src/app/firebase-test.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.ts" afterPath="$PROJECT_DIR$/src/main.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/system-config.ts" afterPath="$PROJECT_DIR$/src/system-config.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings.json" afterPath="$PROJECT_DIR$/typings.json" />
     </list>
     <ignored path="firebase-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -49,18 +31,38 @@
     <favorites_list name="firebase-test" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/app/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.40208334">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="firebase-test.component.ts" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/app/firebase-test.component.ts">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="19" column="56" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="56" />
+                  <folding>
+                    <element signature="e#0#40#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="firebase-test.component.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/app/firebase-test.component.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="29" selection-start-line="10" selection-start-column="2" selection-end-line="11" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -84,7 +86,12 @@
         <option value="$PROJECT_DIR$/firebase.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/serve.sh" />
+        <option value="$PROJECT_DIR$/angular-cli-build.js" />
+        <option value="$PROJECT_DIR$/src/main.ts" />
+        <option value="$PROJECT_DIR$/src/system-config.ts" />
         <option value="$PROJECT_DIR$/src/app/firebase-test.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/firebase-test.component.html" />
       </list>
     </option>
   </component>
@@ -135,56 +142,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="firebase-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="firebase-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="firebase-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="firebase-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="firebase-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="firebase-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="firebase-test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scratches" />
       <pane id="Scope" />
@@ -197,10 +155,10 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="editor.config.accepted" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="in&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/app/index.html" />
+    <property name="SearchEverywhereHistoryKey" value="firetes&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/src/app/firebase-test.component.html&#10;firte&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/src/app/firebase-test.component.ts&#10;mai&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/src/main.ts&#10;main&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/src/main.ts&#10;in&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/app/index.html" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="/usr/local/lib/node_modules/grunt-cli" />
@@ -209,7 +167,7 @@
     <property name="js-tslint-package" value="$PROJECT_DIR$/node_modules/tslint" />
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
-  <component name="RunManager" selected="Grunt.js.Dev_Angular">
+  <component name="RunManager" selected="Bash.ng serve">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -757,6 +715,19 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
+    <configuration default="false" name="ng serve" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/serve.sh" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method>
+        <option name="Make" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="false" name="Dev_Angular" type="js.build_tools.grunt" factoryName="Grunt.js">
       <node-interpreter value="project" />
       <gruntfile value="$PROJECT_DIR$/Gruntfile.js" />
@@ -779,9 +750,10 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Grunt.js.Dev_Angular" />
-      <item index="1" class="java.lang.String" itemvalue="Gulp.js.Dev" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Bash.ng serve" />
+      <item index="1" class="java.lang.String" itemvalue="Grunt.js.Dev_Angular" />
+      <item index="2" class="java.lang.String" itemvalue="Gulp.js.Dev" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -799,16 +771,16 @@
       <updated>1462796659591</updated>
       <workItem from="1462796660890" duration="6555000" />
       <workItem from="1462834319839" duration="1066000" />
-      <workItem from="1462878915346" duration="506000" />
+      <workItem from="1462878915346" duration="8787000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8127000" />
+    <option name="totallyTimeSpent" value="16408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -817,10 +789,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -829,14 +802,21 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -874,16 +854,6 @@
     <entry file="file://$PROJECT_DIR$/src/client/app/admin/admin.controller.js" />
     <entry file="file://$PROJECT_DIR$/app/index.html" />
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js" />
-    <entry file="file://$PROJECT_DIR$/src/app/firebase-test.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          <folding>
-            <marker date="1462878965000" expanded="true" signature="3:21" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-74">
@@ -895,17 +865,6 @@
             <marker date="1462878965000" expanded="true" signature="680:1124" placeholder="..." />
             <marker date="1462878965000" expanded="true" signature="975:1116" placeholder="..." />
             <marker date="1462878965000" expanded="true" signature="1032:1068" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1462878965000" expanded="true" signature="7:174" placeholder="..." />
-            <marker date="1462878965000" expanded="true" signature="204:227" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -922,29 +881,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tslint.json">
+    <entry file="file://$PROJECT_DIR$/serve.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/firebase-test.component.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/angularfire2/angularfire2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1462879381000" expanded="true" signature="53:204" placeholder="{&quot;selector&quot;: 'firebase-test-app'...}" />
-            <marker date="1462879381000" expanded="true" signature="244:302" placeholder="{...}" />
+            <marker date="1462486637000" expanded="true" signature="101:584" placeholder="{...}" />
+            <marker date="1462486637000" expanded="true" signature="648:761" placeholder="{...}" />
+            <marker date="1462486637000" expanded="true" signature="836:913" placeholder="{...}" />
+            <marker date="1462486637000" expanded="true" signature="2188:2702" placeholder="{...}" />
+            <marker date="1462486637000" expanded="true" signature="2238:2437" placeholder="{...}" />
+            <marker date="1462486637000" expanded="true" signature="2467:2661" placeholder="[...]" />
+            <marker date="1462486637000" expanded="true" signature="2772:2864" placeholder="{...}" />
+            <marker date="1462486637000" expanded="true" signature="2813:2846" placeholder="{...}" />
+            <marker date="1462486637000" expanded="true" signature="2892:3119" placeholder="[...]" />
+            <marker date="1462486637000" expanded="true" signature="2935:3041" placeholder="{...}" />
+            <marker date="1462486637000" expanded="true" signature="3150:3391" placeholder="[...]" />
+            <marker date="1462486637000" expanded="true" signature="3229:3388" placeholder="{...}" />
+            <marker date="1462486637000" expanded="true" signature="3434:3517" placeholder="{...}" />
+            <marker date="1462486637000" expanded="true" signature="3484:3513" placeholder="{...}" />
+            <marker date="1462486637000" expanded="true" signature="3782:3827" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/system-config.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <marker date="1462889515000" expanded="true" signature="0:216" placeholder="/** User Configuration. ...*/" />
+            <marker date="1462889515000" expanded="true" signature="217:251" placeholder="/**...*/" />
+            <marker date="1462889515000" expanded="true" signature="269:365" placeholder="{&quot;firebase&quot;: 'vendor/firebase/lib/firebase-web.js'...}" />
+            <marker date="1462889515000" expanded="true" signature="368:403" placeholder="/**...*/" />
+            <marker date="1462889515000" expanded="true" signature="426:507" placeholder="{...}" />
+            <marker date="1462889515000" expanded="true" signature="444:505" placeholder="{&quot;defaultExtension&quot;: 'js'...}" />
+            <marker date="1462889515000" expanded="true" signature="607:858" placeholder="/** Everything underneath this line is managed by the CLI. ...*/" />
+            <marker date="1462889515000" expanded="true" signature="885:1221" placeholder="[...]" />
+            <marker date="1462889515000" expanded="true" signature="1201:1219" placeholder="/**...*/" />
+            <marker date="1462889515000" expanded="true" signature="1305:1367" placeholder="{...}" />
+            <marker date="1462889515000" expanded="true" signature="1371:1414" placeholder="/**...*/" />
+            <marker date="1462889515000" expanded="true" signature="1496:1633" placeholder="{...}" />
+            <marker date="1462889515000" expanded="true" signature="1505:1594" placeholder="{&quot;@angular&quot;: 'vendor/@angular'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-cli-build.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <marker date="1462888546000" expanded="true" signature="0:28" placeholder="/*...*/" />
+            <marker date="1462888546000" expanded="true" signature="135:564" placeholder="{...}" />
+            <marker date="1462888546000" expanded="true" signature="172:560" placeholder="{...}" />
+            <marker date="1462888546000" expanded="true" signature="194:556" placeholder="[...]" />
+            <marker date="1462888546000" expanded="true" signature="418:494" placeholder="//..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/index.ts">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+          <folding>
+            <marker date="1462888675000" expanded="true" signature="7:242" placeholder="..." />
+            <marker date="1462888675000" expanded="true" signature="272:295" placeholder="{...}" />
+            <marker date="1462888675000" expanded="true" signature="333:414" placeholder="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tslint.json">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1462878965000" expanded="true" signature="0:1684" placeholder="{...}" />
+            <marker date="1462878965000" expanded="true" signature="61:1682" placeholder="{&quot;no-inferrable-types&quot;: true...}" />
+            <marker date="1462878965000" expanded="true" signature="178:217" placeholder="[...]" />
+            <marker date="1462878965000" expanded="true" signature="233:267" placeholder="[...]" />
+            <marker date="1462878965000" expanded="true" signature="574:685" placeholder="[...]" />
+            <marker date="1462878965000" expanded="true" signature="704:760" placeholder="[...]" />
+            <marker date="1462878965000" expanded="true" signature="823:1050" placeholder="[...]" />
+            <marker date="1462878965000" expanded="true" signature="843:1044" placeholder="{&quot;call-signature&quot;: &quot;nospace&quot;...}" />
+            <marker date="1462878965000" expanded="true" signature="1092:1189" placeholder="[...]" />
+            <marker date="1462878965000" expanded="true" signature="1209:1338" placeholder="[...]" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/firebase-test.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="56" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/firebase-test.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="29" selection-start-line="10" selection-start-column="2" selection-end-line="11" selection-end-column="29" />
           <folding />
         </state>
       </provider>

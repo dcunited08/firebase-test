@@ -11,7 +11,11 @@ module.exports = function(defaults) {
       'es6-shim/es6-shim.js',
       'reflect-metadata/*.js',
       'rxjs/**/*.js',
-      '@angular/**/*.js'
+      '@angular/**/*.js',
+      // above are the existing entries
+      // below are the AngularFire entries
+      'angularfire2/**/*.js',
+      'firebase/lib/*.js'
     ]
   });
 };
