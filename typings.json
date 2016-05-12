@@ -6,9 +6,7 @@
   },
   "ambientDependencies": {
     "es6-shim": "registry:dt/es6-shim#0.31.2+20160317120654",
-    "firebase": "registry:dt/firebase#2.4.1+20160412125105"
-  },
-  "dependencies": {
-    "moment": "registry:npm/moment#2.10.5+20160211003958"
+    "firebase": "registry:dt/firebase#2.4.1+20160412125105",
+    "lodash": "registry:dt/lodash#3.10.0+20160330154726"
   }
 }

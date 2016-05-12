@@ -15,7 +15,10 @@ module.exports = function(defaults) {
       // above are the existing entries
       // below are the AngularFire entries
       'angularfire2/**/*.js',
-      'firebase/lib/*.js'
+      'firebase/lib/*.js',
+      'jquery/dist/*.js',
+      'bootstrap/dist/**/*',
+      'lodash/lodash.js'
     ]
   });
 };

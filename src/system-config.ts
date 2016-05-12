@@ -4,7 +4,8 @@
 /** Map relative paths to URLs. */
 const map: any = {
   'firebase': 'vendor/firebase/lib/firebase-web.js',
-  'angularfire2': 'vendor/angularfire2'
+  'angularfire2': 'vendor/angularfire2',
+  'lodash': 'vendor/lodash/lodash.js'
 };
 
 /** User packages configuration. */

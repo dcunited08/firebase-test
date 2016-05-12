@@ -1,6 +1,6 @@
 import { bootstrap } from '@angular/platform-browser-dynamic';
 import { enableProdMode } from '@angular/core';
-import { FirebaseTestAppComponent, environment } from './app/';
+import { FirebaseTestAppComponent, environment } from './app';
 import { FIREBASE_PROVIDERS, defaultFirebase, AuthMethods,
   AuthProviders, firebaseAuthConfig } from 'angularfire2';
 
