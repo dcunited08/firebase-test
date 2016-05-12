@@ -1,11 +1,12 @@
 import {Component} from '@angular/core';
-import {AngularFire, FirebaseListObservable, FirebaseObjectObservable} from 'angularfire2';
+import {AngularFire, FirebaseListObservable, FirebaseObjectObservable, AuthProviders, AuthMethods} from 'angularfire2';
+
 
 @Component({
   moduleId: module.id,
   selector: 'firebase-test-app',
   templateUrl: 'firebase-test.component.html',
-  styleUrls: ['firebase-test.component.css']
+  styleUrls: ['firebase-test.component.css'],
 })
 
 export class FirebaseTestAppComponent {
@@ -14,10 +15,11 @@ export class FirebaseTestAppComponent {
   set: FirebaseObjectObservable <any>;
   update: FirebaseObjectObservable <any>;
 
-  constructor(af: AngularFire) {
-    this.push = af.database.list('/webTest/push');
-    this.set = af.database.object('/webTest/set');
-    this.update = af.database.object('/webTest/update');
+  constructor(public af: AngularFire) {
+    this.push = this.af.database.list('/webTest/push');
+    this.set = this.af.database.object('/webTest/set');
+    this.update = this.af.database.object('/webTest/update');
+    this.af.auth.subscribe(auth => console.log(auth));
   }
 
   setSet(set: string) {
@@ -32,6 +34,25 @@ export class FirebaseTestAppComponent {
     this.push.push({
       test1: test1,
       test2: test2
+    });
+  }
+
+  login() {
+    this.af.auth.login({
+      provider: AuthProviders.Twitter,
+      method: AuthMethods.Popup
+    });
+  }
+
+  getAuthID() {
+    console.log(this.af.auth);
+    return 5;
+  }
+
+  overrideLogin() {
+    this.af.auth.login({
+      provider: AuthProviders.Anonymous,
+      method: AuthMethods.Anonymous
     });
   }
 

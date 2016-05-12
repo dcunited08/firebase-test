@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="defd55c6-ac9d-4675-b4f4-052efdfedc09" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/firebase-test.iml" afterPath="$PROJECT_DIR$/.idea/firebase-test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/firebase-test.component.html" afterPath="$PROJECT_DIR$/src/app/firebase-test.component.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/firebase-test.component.ts" afterPath="$PROJECT_DIR$/src/app/firebase-test.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main.ts" afterPath="$PROJECT_DIR$/src/main.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings.json" afterPath="$PROJECT_DIR$/typings.json" />
     </list>
     <ignored path="firebase-test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +36,8 @@
           <file leaf-file-name="firebase-test.component.ts" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/app/firebase-test.component.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+                <state relative-caret-position="582">
+                  <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
                   <folding>
                     <element signature="e#0#40#0" expanded="true" />
                   </folding>
@@ -46,8 +52,8 @@
           <file leaf-file-name="firebase-test.component.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/app/firebase-test.component.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+                <state relative-caret-position="135">
+                  <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -80,9 +86,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/serve.sh" />
+        <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/angular-cli-build.js" />
-        <option value="$PROJECT_DIR$/src/main.ts" />
         <option value="$PROJECT_DIR$/src/system-config.ts" />
+        <option value="$PROJECT_DIR$/src/main.ts" />
         <option value="$PROJECT_DIR$/src/app/firebase-test.component.ts" />
         <option value="$PROJECT_DIR$/src/app/firebase-test.component.html" />
       </list>
@@ -134,11 +141,11 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane />
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,7 +158,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.TypeScript" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="editor.config.accepted" value="true" />
-    <property name="SearchEverywhereHistoryKey" value="firetes&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/src/app/firebase-test.component.html&#10;firte&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/src/app/firebase-test.component.ts&#10;mai&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/src/main.ts&#10;main&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/src/main.ts&#10;in&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/app/index.html" />
+    <property name="SearchEverywhereHistoryKey" value="sys&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/src/system-config.ts&#10;firetes&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/src/app/firebase-test.component.html&#10;firte&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/src/app/firebase-test.component.ts&#10;mai&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/src/main.ts&#10;main&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/src/main.ts&#10;in&#9;FILE&#9;file:///Users/dcook/workspace/firebase-test/app/index.html" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="js.buildTools.grunt.grunt-cli.package" value="/usr/local/lib/node_modules/grunt-cli" />
@@ -764,12 +771,13 @@
       <updated>1462796659591</updated>
       <workItem from="1462796660890" duration="6555000" />
       <workItem from="1462834319839" duration="1066000" />
-      <workItem from="1462878915346" duration="9207000" />
+      <workItem from="1462878915346" duration="9508000" />
+      <workItem from="1462975577911" duration="4524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16828000" />
+    <option name="totallyTimeSpent" value="21653000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -786,21 +794,21 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942554" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.49589685" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5041032" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -823,6 +831,24 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/app/firebase-test.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/firebase-test.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/package.json" />
     <entry file="file://$PROJECT_DIR$/dist/index.html" />
@@ -833,10 +859,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding>
-            <marker date="1462805690000" expanded="true" signature="0:129" placeholder="{&quot;firebase&quot;: &quot;dcook-test1&quot;...}" />
-            <marker date="1462805690000" expanded="true" signature="63:127" placeholder="[...]" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,18 +869,31 @@
     <entry file="file://$PROJECT_DIR$/src/client/app/admin/admin.controller.js" />
     <entry file="file://$PROJECT_DIR$/app/index.html" />
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js" />
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/serve.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-74">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/angularfire2/angularfire2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1462878965000" expanded="true" signature="21:1132" placeholder="..." />
-            <marker date="1462878965000" expanded="true" signature="28:673" placeholder="..." />
-            <marker date="1462878965000" expanded="true" signature="265:663" placeholder="..." />
-            <marker date="1462878965000" expanded="true" signature="680:1124" placeholder="..." />
-            <marker date="1462878965000" expanded="true" signature="975:1116" placeholder="..." />
-            <marker date="1462878965000" expanded="true" signature="1032:1068" placeholder="{...}" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tslint.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -874,56 +909,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/serve.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/angularfire2/angularfire2.js">
+    <entry file="file://$PROJECT_DIR$/angular-cli.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1462486637000" expanded="true" signature="101:584" placeholder="{...}" />
-            <marker date="1462486637000" expanded="true" signature="648:761" placeholder="{...}" />
-            <marker date="1462486637000" expanded="true" signature="836:913" placeholder="{...}" />
-            <marker date="1462486637000" expanded="true" signature="2188:2702" placeholder="{...}" />
-            <marker date="1462486637000" expanded="true" signature="2238:2437" placeholder="{...}" />
-            <marker date="1462486637000" expanded="true" signature="2467:2661" placeholder="[...]" />
-            <marker date="1462486637000" expanded="true" signature="2772:2864" placeholder="{...}" />
-            <marker date="1462486637000" expanded="true" signature="2813:2846" placeholder="{...}" />
-            <marker date="1462486637000" expanded="true" signature="2892:3119" placeholder="[...]" />
-            <marker date="1462486637000" expanded="true" signature="2935:3041" placeholder="{...}" />
-            <marker date="1462486637000" expanded="true" signature="3150:3391" placeholder="[...]" />
-            <marker date="1462486637000" expanded="true" signature="3229:3388" placeholder="{...}" />
-            <marker date="1462486637000" expanded="true" signature="3434:3517" placeholder="{...}" />
-            <marker date="1462486637000" expanded="true" signature="3484:3513" placeholder="{...}" />
-            <marker date="1462486637000" expanded="true" signature="3782:3827" placeholder="{...}" />
+            <marker date="1462878965000" expanded="true" signature="0:421" placeholder="{...}" />
+            <marker date="1462878965000" expanded="true" signature="15:79" placeholder="{&quot;name&quot;: &quot;firebase-test&quot;...}" />
+            <marker date="1462878965000" expanded="true" signature="91:157" placeholder="[...]" />
+            <marker date="1462878965000" expanded="true" signature="202:277" placeholder="{...}" />
+            <marker date="1462878965000" expanded="true" signature="222:273" placeholder="{&quot;config&quot;: &quot;config/protractor.conf.js&quot;...}" />
+            <marker date="1462878965000" expanded="true" signature="289:354" placeholder="{...}" />
+            <marker date="1462878965000" expanded="true" signature="304:350" placeholder="{&quot;config&quot;: &quot;config/karma.conf.js&quot;...}" />
+            <marker date="1462878965000" expanded="true" signature="370:419" placeholder="{&quot;prefix&quot;: &quot;app&quot;...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/system-config.ts">
+    <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        <state relative-caret-position="660">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
-            <marker date="1462889515000" expanded="true" signature="0:216" placeholder="/** User Configuration. ...*/" />
-            <marker date="1462889515000" expanded="true" signature="217:251" placeholder="/**...*/" />
-            <marker date="1462889515000" expanded="true" signature="269:365" placeholder="{&quot;firebase&quot;: 'vendor/firebase/lib/firebase-web.js'...}" />
-            <marker date="1462889515000" expanded="true" signature="368:403" placeholder="/**...*/" />
-            <marker date="1462889515000" expanded="true" signature="426:507" placeholder="{...}" />
-            <marker date="1462889515000" expanded="true" signature="444:505" placeholder="{&quot;defaultExtension&quot;: 'js'...}" />
-            <marker date="1462889515000" expanded="true" signature="607:858" placeholder="/** Everything underneath this line is managed by the CLI. ...*/" />
-            <marker date="1462889515000" expanded="true" signature="885:1221" placeholder="[...]" />
-            <marker date="1462889515000" expanded="true" signature="1201:1219" placeholder="/**...*/" />
-            <marker date="1462889515000" expanded="true" signature="1305:1367" placeholder="{...}" />
-            <marker date="1462889515000" expanded="true" signature="1371:1414" placeholder="/**...*/" />
-            <marker date="1462889515000" expanded="true" signature="1496:1633" placeholder="{...}" />
-            <marker date="1462889515000" expanded="true" signature="1505:1594" placeholder="{&quot;@angular&quot;: 'vendor/@angular'...}" />
+            <marker date="1462977754000" expanded="true" signature="21:1746" placeholder="..." />
+            <marker date="1462977754000" expanded="true" signature="28:996" placeholder="..." />
+            <marker date="1462977754000" expanded="true" signature="588:986" placeholder="..." />
+            <marker date="1462977754000" expanded="true" signature="1003:1738" placeholder="..." />
+            <marker date="1462977754000" expanded="true" signature="1589:1730" placeholder="..." />
+            <marker date="1462977754000" expanded="true" signature="1646:1682" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -933,58 +946,54 @@
         <state relative-caret-position="255">
           <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
-            <marker date="1462888546000" expanded="true" signature="0:28" placeholder="/*...*/" />
-            <marker date="1462888546000" expanded="true" signature="135:564" placeholder="{...}" />
-            <marker date="1462888546000" expanded="true" signature="172:560" placeholder="{...}" />
-            <marker date="1462888546000" expanded="true" signature="194:556" placeholder="[...]" />
-            <marker date="1462888546000" expanded="true" signature="418:494" placeholder="//..." />
+            <marker date="1462977805000" expanded="true" signature="0:28" placeholder="/*...*/" />
+            <marker date="1462977805000" expanded="true" signature="135:564" placeholder="{...}" />
+            <marker date="1462977805000" expanded="true" signature="172:560" placeholder="{...}" />
+            <marker date="1462977805000" expanded="true" signature="194:556" placeholder="[...]" />
+            <marker date="1462977805000" expanded="true" signature="418:494" placeholder="//..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/index.ts">
+    <entry file="file://$PROJECT_DIR$/src/system-config.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="330">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <marker date="1462977888000" expanded="true" signature="0:216" placeholder="/** User Configuration. ...*/" />
+            <marker date="1462977888000" expanded="true" signature="217:251" placeholder="/**...*/" />
+            <marker date="1462977888000" expanded="true" signature="269:365" placeholder="{&quot;firebase&quot;: 'vendor/firebase/lib/firebase-web.js'...}" />
+            <marker date="1462977888000" expanded="true" signature="368:403" placeholder="/**...*/" />
+            <marker date="1462977888000" expanded="true" signature="426:507" placeholder="{...}" />
+            <marker date="1462977888000" expanded="true" signature="444:505" placeholder="{&quot;defaultExtension&quot;: 'js'...}" />
+            <marker date="1462977888000" expanded="true" signature="607:858" placeholder="/** Everything underneath this line is managed by the CLI. ...*/" />
+            <marker date="1462977888000" expanded="true" signature="885:1221" placeholder="[...]" />
+            <marker date="1462977888000" expanded="true" signature="1201:1219" placeholder="/**...*/" />
+            <marker date="1462977888000" expanded="true" signature="1305:1367" placeholder="{...}" />
+            <marker date="1462977888000" expanded="true" signature="1371:1414" placeholder="/**...*/" />
+            <marker date="1462977888000" expanded="true" signature="1496:1633" placeholder="{...}" />
+            <marker date="1462977888000" expanded="true" signature="1505:1594" placeholder="{&quot;@angular&quot;: 'vendor/@angular'...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
+        <state relative-caret-position="240">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <marker date="1462888675000" expanded="true" signature="7:242" placeholder="..." />
-            <marker date="1462888675000" expanded="true" signature="272:295" placeholder="{...}" />
-            <marker date="1462888675000" expanded="true" signature="333:414" placeholder="[...]" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tslint.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1462878965000" expanded="true" signature="0:1684" placeholder="{...}" />
-            <marker date="1462878965000" expanded="true" signature="61:1682" placeholder="{&quot;no-inferrable-types&quot;: true...}" />
-            <marker date="1462878965000" expanded="true" signature="178:217" placeholder="[...]" />
-            <marker date="1462878965000" expanded="true" signature="233:267" placeholder="[...]" />
-            <marker date="1462878965000" expanded="true" signature="574:685" placeholder="[...]" />
-            <marker date="1462878965000" expanded="true" signature="704:760" placeholder="[...]" />
-            <marker date="1462878965000" expanded="true" signature="823:1050" placeholder="[...]" />
-            <marker date="1462878965000" expanded="true" signature="843:1044" placeholder="{&quot;call-signature&quot;: &quot;nospace&quot;...}" />
-            <marker date="1462878965000" expanded="true" signature="1092:1189" placeholder="[...]" />
-            <marker date="1462878965000" expanded="true" signature="1209:1338" placeholder="[...]" />
+            <marker date="1462979802000" expanded="true" signature="7:292" placeholder="..." />
+            <marker date="1462979802000" expanded="true" signature="323:346" placeholder="{...}" />
+            <marker date="1462979802000" expanded="true" signature="384:564" placeholder="[...]" />
+            <marker date="1462979802000" expanded="true" signature="429:504" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/firebase-test.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="582">
+          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
@@ -993,8 +1002,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/firebase-test.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="135">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding />
         </state>
       </provider>

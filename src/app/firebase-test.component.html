@@ -1,37 +1,60 @@
-<h1>
-  {{title}}
-</h1>
+<div class="page-header">
+  <h1>
+    {{title}}
+  </h1>
+</div>
 
-<h3>Change Set</h3>
-<p>
-  {{ set | async }}
-</p>
-<label for="inputSet">Press enter to commit</label><br />
-<input type="text" #inputSet (keyup.enter)="setSet(inputSet.value)" placeholder="Set" value="{{set | async}}" />
+<button (click)="login()">Login With Twitter</button>
+<button (click)="overrideLogin()">Login Anonymously</button>
 
-<h3>Change Update</h3>
-<p>
-  {{ update | async | json}}
-</p>
-<label for="inputUpdate">Press enter to update 'pemdos'</label><br />
-<input type="text" #inputUpdate (keyup.enter)="updateUpdate(inputUpdate.value)" placeholder="Update" value="{{ (update | async)?.pemdos }}" />
+<div> {{ (af.auth | async)?.uid }}</div>
 
+<!--<div [ngIF]="(af.auth | async).uid > 0">-->
 
-<br />
-<br />
-<h3>Add to Push</h3>
-<label for="test1">Test1</label>
-<input type="text" #test1 placeholder="test1" />
-<br />
-<label>Test2</label>
-<input type="text" #test2 placeholder="test2" />
-<br />
-<button (click)="pushPush(test1.value, test2.value)">Push Value</button>
+  <h3>Change Set</h3>
+  <p>
+    {{ set | async }}
+  </p>
+  <label for="inputSet">Press enter to commit</label><br />
+  <input type="text" #inputSet (keyup.enter)="setSet(inputSet.value)" placeholder="Set" value="{{set | async}}" />
+
+  <h3>Change Update</h3>
+  <p>
+    {{ update | async | json}}
+  </p>
+  <label for="inputUpdate">Press enter to update 'pemdos'</label><br />
+  <input type="text" #inputUpdate (keyup.enter)="updateUpdate(inputUpdate.value)" placeholder="Update"
+         value="{{ (update | async)?.pemdos }}" />
 
 
-<ul *ngFor="let item of push | async">
-  <li class="text">
-    {{item | json}}
-  </li>
-</ul>
+  <br />
+  <br />
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h3 class="panel-title">Add to Push</h3>
+    </div>
 
+    <div class="panel-body">
+
+      <div class="input-group">
+        <span class="input-group-addon">Test1</span>
+        <input class="form-control" type="text" #test1 placeholder="test1" />
+      </div>
+
+      <div class="input-group">
+        <span class="input-group-addon">Test2</span>
+        <input class="form-control" type="text" #test2 placeholder="test2" />
+      </div>
+      <button (click)="pushPush(test1.value, test2.value)" class="btn btn-default">Push Value</button>
+
+    </div>
+  <!--</div>-->
+
+  <ul *ngFor="let item of push | async">
+    <li class="text list-group-item">
+      {{item | json}}
+    </li>
+
+  </ul>
+
+</div>
