@@ -19,7 +19,12 @@ export class FirebaseTestAppComponent {
     this.push = this.af.database.list('/webTest/push');
     this.set = this.af.database.object('/webTest/set');
     this.update = this.af.database.object('/webTest/update');
-    this.af.auth.subscribe(auth => console.log(auth));
+    this.af.auth.subscribe((auth) => {
+      console.log(auth);
+      this.push = this.af.database.list('/webTest/push');
+      this.set = this.af.database.object('/webTest/set');
+      this.update = this.af.database.object('/webTest/update');
+    });
   }
 
   setSet(set: string) {
